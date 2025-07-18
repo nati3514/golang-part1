@@ -39,6 +39,7 @@ func NewAdmin(email, password string) Admin {
 		},
 	}
 }
+// this is it
 func New(firstName, lastName, birthdate string) (*User, error) {
 	if firstName == "" || lastName == "" || birthdate == "" {
 		return nil, errors.New("First name, last name and birthdate are required information")

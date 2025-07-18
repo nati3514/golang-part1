@@ -22,6 +22,7 @@ func getBalanceFromFile() (float64, error) {
 
 	
 	return balance, nil
+	//this is it
 	
 }
 

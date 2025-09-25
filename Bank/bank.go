@@ -3,7 +3,6 @@ import "fmt"
 import "os"
 import "strconv"
  import "errors"
-
 const accountBalanceFile= "balance.txt"
 
 func getBalanceFromFile() (float64, error) {

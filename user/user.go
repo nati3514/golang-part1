@@ -1,5 +1,4 @@
 package user
-
 import (
 	"errors"
 	"fmt"
@@ -26,7 +25,6 @@ func (u *User) ClearUserName() {
 	u.firstName = ""
 	u.lastName = ""
 }
-
 func NewAdmin(email, password string) Admin {
 	return Admin{
 		email:    email,

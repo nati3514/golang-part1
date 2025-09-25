@@ -4,7 +4,6 @@ import "os"
 import "strconv"
  import "errors"
 const accountBalanceFile= "balance.txt"
-
 func getBalanceFromFile() (float64, error) {
 	data, err := os.ReadFile(accountBalanceFile)
 

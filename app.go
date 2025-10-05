@@ -18,6 +18,7 @@ func main() {
 	fmt.Scan(&years)
 
 	futureValue, futureRateValue := CalculaeFutureValue(investmentAmount, expectedAmount, years)
+	
 
 	// futureValue := investmentAmount * math.Pow(1 + expectedAmount/100, years)
 	fmt.Println("Future Value: ", futureValue)

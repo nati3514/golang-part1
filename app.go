@@ -23,6 +23,8 @@ func main() {
 	// futureValue := investmentAmount * math.Pow(1 + expectedAmount/100, years)
 	fmt.Println("Future Value: ", futureValue)
 
+	
+
 	// futureRateValue := futureValue / math.Pow(1 + inflationRate/100, years)
 	fmt.Println("Future Rate Value: ", futureRateValue)
 

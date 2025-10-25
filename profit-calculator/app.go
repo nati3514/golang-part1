@@ -17,7 +17,8 @@ func main() {
 	outputTextNumber("Profit: %.1f \n", profit)
 
 	// ratio := EBT / profit
-	outputTextNumber("Profit Ratio:%.2f", ratio)
+	outputTextNumber("Profit Ratio:%.2f", ratio)'
+	
 
 }
 
